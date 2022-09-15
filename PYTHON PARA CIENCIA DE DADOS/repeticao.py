@@ -17,3 +17,38 @@ def depositar(valor):
 
 sacar(100)
 depositar(250)
+
+#condicional
+
+MAIOR_IDADE = 18
+IDADE_ESPECIAL = 12
+
+idade = int(input("Insira a sua idade: "))
+
+if idade >= MAIOR_IDADE:
+    print("O usuário já pode dar entrada na CNH")
+
+elif idade == IDADE_ESPECIAL:
+    print("O usuário pode fazer aulas teóricas, mas não pode fazer aulas práticas")
+
+else:
+    print("O usuário ainda não pode dar entrada na CNH")
+
+
+#repeticao
+
+fruits = ['apple', 'grape', 'papaya', 'orange']
+
+for fruit in fruits:
+  print(fruit)
+
+
+while True: 
+    numero = int(input("Informe um número: "))
+
+    if numero == 100:
+        break
+
+    print(numero)
+
+    
