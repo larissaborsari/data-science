@@ -68,3 +68,18 @@ print(exp)
 
 #IDENTIDADE
 
+saldo_4 = 1000
+limite_4 = 500
+
+print(saldo_4 is limite_4) #para saber se ocupam a memsa região de memória
+print(saldo_4 is not limite_4)
+
+
+
+#ASSOCIAÇÃO
+
+frutas = ["limao", "banana"]
+
+print("laranja" in frutas)
+print("limao" not in frutas)
+print("limao" in frutas)
