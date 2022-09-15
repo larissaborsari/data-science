@@ -31,3 +31,36 @@ PI = 3.14159
 
 print(f"Valor de PI: {PI : .2f}")
 print(f"Valor de PI: {PI : 10.2f}")
+
+
+frase = "Fatiamento de String"
+
+print(frase[0])
+
+print(frase[:9])
+
+print(frase[10:])
+
+print(frase[10:16])
+
+print(frase[5:16:2])
+
+print(frase[:])
+
+print(frase[::-1])
+
+mensagem = f"""Olá, meu nome é {nome}
+e eu estou escrevendo alguma coisa
+aqui"""
+
+print(mensagem)
+
+print(
+    """
+    =================MENU================
+       1 - opção 1
+       2 - opção 2
+       3 - opção 3
+    =====================================
+    """
+)
