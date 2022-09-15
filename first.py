@@ -16,3 +16,5 @@ nome = 'Larissa'
 idade = 24
 
 print(nome, idade)
+
+BRAZILIAN_STATES = ["RS", "SC", "PR", "SP", "MG", "ES", "RJ", "BA", "DF", "GO"]
