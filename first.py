@@ -9,3 +9,10 @@ print("-" * 25)
 print("-" * 24, end=' ')
 print(1.5 + 5 + 0.63, end=' ')
 print("-" * 24)
+
+#variáveis e constantes
+
+nome = 'Larissa'
+idade = 24
+
+print(nome, idade)
