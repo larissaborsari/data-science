@@ -42,3 +42,29 @@ print(saldo_2)
 
 saldo_2 **= 2
 print(saldo_2)
+
+#LOGICOS
+
+print( True and True)
+print(True and False)
+print(True or True)
+print(True or False)
+print(False or False)
+print(False and False)
+
+saldo_3 = 1000
+saque = 250
+limite = 200
+conta_especial = True
+
+exp = saldo_3 >= saque and saque <= limite or conta_especial and saldo_3 >= saque
+
+print(exp)
+
+exp = (saldo_3 >= saque and saque <= limite) or (conta_especial and saldo_3 >= saque)
+
+print(exp)
+
+
+#IDENTIDADE
+
