@@ -15,3 +15,13 @@ def antecessor_e_sucessor(numero):
 
 print(calcular_total([10, 20, 30, 55]))
 print(antecessor_e_sucessor(9))
+
+
+def exibir_poema(data_extenso, *args, **kwargs): #args -> asterisco denota a tupla, sempre os valores separados pela vírgula, kwargs -> dois astericos denotam estrutura chave valor
+    texto = "\n".join(args)
+    meta_dados = "\n".join([f"{chave.title()}: {valor}" for chave, valor in kwargs.items()])
+    mensagem = f"{data_extenso}\n\n{texto}\n\n{meta_dados}"
+    print(mensagem)
+
+
+exibir_poema("Segunda-feira, 19/09/2022", "Zen do Python", "Beautiful is better than uggly", autor="Tim Peters", ano="1999",)
