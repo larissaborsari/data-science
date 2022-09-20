@@ -1,8 +1,3 @@
-from distutils import core
-from imp import init_builtin
-from importlib.util import module_for_loader
-from mimetypes import init
-
 
 class Bicicleta:
     def __init__(self, cor, modelo, ano, valor):
