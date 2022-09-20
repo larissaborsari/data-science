@@ -21,7 +21,14 @@ class Bicicleta:
     def correr(self):
         print("Vruuuummmmmm")
 
+    def __str__ (self):
+        return f"{self.__class__.__name__}: {', '.join([f'{chave}={valor}' for chave, valor in self.__dict__.items()])}"
+
 b1 = Bicicleta("vermelha", "caloi", 2022, 650)
 b1.buzinar()
 b1.correr()
 b1.parar()
+
+b2 = Bicicleta("verde", "monark", 2000, 180)
+
+print(b1)
