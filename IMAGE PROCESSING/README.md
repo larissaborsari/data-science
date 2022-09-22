@@ -24,3 +24,5 @@ pip install image_processing
 # Author
 
 Aula sobre criação de pacotes como parte do [Bootcamp DIO](https://www.dio.me/sign-in)
+
+o pacote criado aqui não está publicado pois foi elaborado para fins de aprendizado apenas
