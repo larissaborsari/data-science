@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: image-processing
+Version: 0.0.1
+Summary: image Processing Package using Skimage
+Home-page: https://github.com/larissaborsari/data-science/tree/main/IMAGE%20PROCESSING
+Author: Larissa
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# image_processing
+
+Description:
+The package image_processing is used for: 
+    Proessing: 
+        - Histogram matching
+        - Structural similarity
+        - Resize image
+    Utils: 
+        - Read image
+        - Save image
+        - Plot image
+        - Plot result
+        - Plot histogram
+
+# Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+
+```bash
+pip install image_processing
+```
+
+# Author
+
+Aula sobre criaÃ§Ã£o de pacotes como parte do [Bootcamp DIO](https://www.dio.me/sign-in)
+
+
